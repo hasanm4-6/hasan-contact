@@ -1,5 +1,6 @@
-import { transporter } from './../lib/transporter'
-import { portfolioEmailTemplate, invitationAcceptedTemplate } from '../templates/portfolioContact.template'
+import { transporter } from './../lib/transporter.js'
+import { portfolioEmailTemplate } from '../templates/portfolioContact.template.js'
+import { invitationAcceptedTemplate } from '../templates/iftarInvitation.template.js'
 
 export const sendPortfolioMail = async ({ name, email, message }) => {
   await transporter.sendMail({

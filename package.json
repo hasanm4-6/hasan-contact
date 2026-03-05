@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "dev": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hasanm4-6/hasan-contact.git"
@@ -13,7 +16,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/hasanm4-6/hasan-contact/issues"
   },
